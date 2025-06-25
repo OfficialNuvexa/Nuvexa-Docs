@@ -701,6 +701,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Technical Architecture
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -712,6 +725,79 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#node-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Node Infrastructure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-execution-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Execution Layer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zkvm-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      zkVM Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-and-data-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storage and Data Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-and-upgradability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Governance and Upgradability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -885,6 +971,68 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#node-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Node Infrastructure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-execution-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Execution Layer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zkvm-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      zkVM Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-and-data-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storage and Data Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-and-upgradability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Governance and Upgradability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -903,7 +1051,57 @@
 
 
 <h1 id="technical-architecture">Technical Architecture<a class="headerlink" href="#technical-architecture" title="Permanent link">&para;</a></h1>
-<p>Node structure, zkVM integration, custom execution layer.</p>
+<p>Nuvexa’s architecture is designed to meet the performance, scalability, and intelligence needs of the next generation of decentralized applications. It brings together a modular execution environment, AI-optimized components, and privacy-centric computation into one cohesive protocol stack.</p>
+<p>This section provides an in-depth look at how Nuvexa works under the hood.</p>
+<hr />
+<h2 id="node-infrastructure">Node Infrastructure<a class="headerlink" href="#node-infrastructure" title="Permanent link">&para;</a></h2>
+<p>Nuvexa operates on a decentralized network of validator nodes that are optimized for:</p>
+<ul>
+<li><strong>Parallel Transaction Processing</strong>: Efficient handling of high-volume workloads</li>
+<li><strong>Dynamic Runtime Updates</strong>: Nodes can update logic modules without full chain redeploys</li>
+<li><strong>Resource-Conscious Execution</strong>: Layered resource allocation for compute, storage, and bandwidth</li>
+</ul>
+<p>This ensures resilience, horizontal scalability, and developer-friendly upgrades.</p>
+<hr />
+<h2 id="custom-execution-layer">Custom Execution Layer<a class="headerlink" href="#custom-execution-layer" title="Permanent link">&para;</a></h2>
+<p>At the heart of Nuvexa is a custom-built execution layer that supports multiple execution modes:</p>
+<ul>
+<li><strong>AI-Inference Support</strong>: Smart contracts can delegate logic to embedded AI models</li>
+<li><strong>Parallel VM Sharding</strong>: Enables concurrent transaction lanes for higher throughput</li>
+<li><strong>Task Scheduling Engine</strong>: Micro-schedulers optimize execution order for latency and efficiency</li>
+</ul>
+<p>The layer is engineered for speed, determinism, and intelligent extensibility.</p>
+<hr />
+<h2 id="zkvm-integration">zkVM Integration<a class="headerlink" href="#zkvm-integration" title="Permanent link">&para;</a></h2>
+<p>Privacy and integrity are ensured through native integration of zero-knowledge virtual machines (zkVMs):</p>
+<ul>
+<li><strong>Confidential State Transitions</strong>: Data is processed privately and only proofs are recorded on-chain</li>
+<li><strong>Verifiable Computation</strong>: Any off-chain operation can be verified without exposing raw data</li>
+<li><strong>Composable zk Modules</strong>: Developers can import reusable zero-knowledge logic into contracts</li>
+</ul>
+<p>This unlocks use-cases like confidential voting, privacy-preserving DAOs, and sensitive data workflows.</p>
+<hr />
+<h2 id="storage-and-data-handling">Storage and Data Handling<a class="headerlink" href="#storage-and-data-handling" title="Permanent link">&para;</a></h2>
+<p>Nuvexa uses a hybrid data model:</p>
+<ul>
+<li><strong>On-Chain State</strong>: Core protocol logic, tokens, and critical proofs</li>
+<li><strong>Off-Chain Storage</strong>: Heavy or non-critical data offloaded to IPFS, Filecoin, or Nuvexa-hosted storage mesh</li>
+<li><strong>Encrypted Syncing</strong>: Off-chain data can be selectively synced back on-chain using encrypted proof anchors</li>
+</ul>
+<p>This model allows lightweight smart contracts with rich data capabilities.</p>
+<hr />
+<h2 id="governance-and-upgradability">Governance and Upgradability<a class="headerlink" href="#governance-and-upgradability" title="Permanent link">&para;</a></h2>
+<p>To maintain decentralization and agility, Nuvexa supports:</p>
+<ul>
+<li><strong>Modular Governance Frameworks</strong>: Pluggable DAO components for different stakeholder needs</li>
+<li><strong>On-Chain Voting Engines</strong>: Fully verifiable proposal creation, execution, and auditing</li>
+<li><strong>Governance by AI Agents</strong> <em>(Optional)</em>: Weighted influence based on agent reputation and decision history</li>
+</ul>
+<p>All protocol modules are upgradable via governance proposals — ensuring sustainability without centralized control.</p>
+<hr />
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Nuvexa’s architecture is built for the future — one where intelligent systems must scale securely and autonomously. With zk-proof privacy, AI-enhanced logic, modular compute, and real-time data orchestration, Nuvexa offers a new blueprint for smart infrastructure.</p>
+<p>Whether you’re deploying a simple dApp or designing a complex, self-evolving DAO — this technical stack is built to support you.</p>
 
 
 
