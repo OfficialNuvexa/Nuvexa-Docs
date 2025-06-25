@@ -1,16 +1,27 @@
 site_name: Nuvexa Docs
-site_url: https://OfficialNuvexa.github.io/docs
-repo_url: https://github.com/OfficialNuvexa
+site_url: https://officialnuvexa.github.io/Nuvexa-Docs/
+repo_url: https://github.com/OfficialNuvexa/Nuvexa-Docs
+repo_name: OfficialNuvexa/Nuvexa-Docs
 theme:
   name: material
+  language: en
   palette:
+    scheme: slate
     primary: blue
     accent: light blue
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
     - content.code.annotate
 
 nav:
+  - Home: index.md
   - Welcome to Nuvexa: welcome.md
   - Executive Summary: executive-summary.md
   - Legal & Risk Disclaimer: legal-disclaimer.md
@@ -25,5 +36,22 @@ nav:
       - Data Governance & Security: data-governance.md
       - Operational Workflow: operational-workflow.md
   - Social Links:
-      - Twitter: https://twitter.com/officialNuvexa
-      - GitHub: https://github.com/OfficialNuvexa
+      - Twitter - @officialNuvexa: https://twitter.com/officialNuvexa
+      - GitHub - Coming Soon: https://github.com/OfficialNuvexa
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - pymdownx.tasklist
