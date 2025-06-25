@@ -1,0 +1,29 @@
+site_name: Nuvexa Docs
+site_url: https://OfficialNuvexa.github.io/docs
+repo_url: https://github.com/OfficialNuvexa
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - content.code.annotate
+
+nav:
+  - Welcome to Nuvexa: welcome.md
+  - Executive Summary: executive-summary.md
+  - Legal & Risk Disclaimer: legal-disclaimer.md
+  - Contact & Partnerships: contact-partnerships.md
+  - The Nuvexa Ecosystem:
+      - Overview & Vision: overview-vision.md
+      - Verticals Overview: verticals-overview.md
+  - Nuvexa Technology Infrastructure:
+      - Nuvexa Chain Overview: nuvexa-overview.md
+      - Core Functionalities: core-functionalities.md
+      - Technical Architecture: technical-architecture.md
+      - Data Governance & Security: data-governance.md
+      - Operational Workflow: operational-workflow.md
+  - Social Links:
+      - Twitter: https://twitter.com/officialNuvexa
+      - GitHub: https://github.com/OfficialNuvexa

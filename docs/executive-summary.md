@@ -1,0 +1,3 @@
+# Executive Summary
+
+Nuvexa bridges the gap between AI innovation and decentralized technology...
