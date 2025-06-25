@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/contact-partnerships/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/core-functionalities/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/contact-partnerships/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/data-governance/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/core-functionalities/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/executive-summary/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/data-governance/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/legal-disclaimer/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/executive-summary/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/nuvexa-overview/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/legal-disclaimer/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/operational-workflow/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/nuvexa-overview/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/overview-vision/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/operational-workflow/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/technical-architecture/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/overview-vision/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/verticals-overview/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/technical-architecture/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
     <url>
-         <loc>https://OfficialNuvexa.github.io/docs/welcome/</loc>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/verticals-overview/</loc>
+         <lastmod>2025-06-25</lastmod>
+    </url>
+    <url>
+         <loc>https://officialnuvexa.github.io/Nuvexa-Docs/welcome/</loc>
          <lastmod>2025-06-25</lastmod>
     </url>
 </urlset>
